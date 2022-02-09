@@ -22,6 +22,8 @@ public class MemberDao {
 	
 	
 	
+	
+	
 	public int insertMember(Map<String, Object> param) {
 		String sql = "INSERT INTO TB_JDBC_MEMBER"
 				+ " VALUES(?, ?, ?)";
